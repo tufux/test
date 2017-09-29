@@ -1,0 +1,29 @@
+#main{
+    background-color:white;
+    width:480px;
+    height:480px;
+    border: solid 3px black;
+    position:relative;
+}
+.card {
+    height: 108px;
+    width: 75px;
+    float:left;
+    position:relative;
+    margin-bottom:-90px;
+}
+.player{
+    height: 125px;
+    width: 120px;
+    float:left;
+    position:relative;
+}
+.playerHandValue{
+    float:left;
+    position:relative;
+}
+.results{
+    position:fixed;
+    left:20px;
+    top:430px;
+}

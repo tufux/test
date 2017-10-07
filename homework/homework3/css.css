@@ -1,0 +1,45 @@
+body{
+    background-color:#ff00ff;
+}
+h1{
+    color:pink;
+}
+input:hover { 
+    background-color: yellow;
+    color: #000000;
+  
+}
+input{
+    text-align:center;
+}
+p{
+    color:#ff00ff;
+}
+
+p:hover{
+    color:pink;
+}
+div{
+    display:block;
+    position:relative;
+    
+}
+
+footer{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1px;
+  background-color: #565656;
+  text-align: center;
+  font: italic bold 12px/30px Georgia, serif;
+}
+
+.knapp{
+    opacity: 0.5;
+}
+h1:hover{
+    font: italic bold Georgia, serif;
+    color:#00ff00;
+}

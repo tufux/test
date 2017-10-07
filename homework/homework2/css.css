@@ -1,0 +1,44 @@
+div{
+    display:block;
+    background-color:blue;
+    border: 3px solid black;
+    width:30px;
+    height:30px;
+}
+.container{
+    display:block;
+    background-color:white;
+    height:571px;
+    width:612px;
+}
+.headerimage{
+    border: 3px solid black;
+    display:block;
+    width:360px;
+    height:200px;
+    float:left;
+    margin-bottom:0px;
+    margin-right:auto;
+}
+.leftDiv{
+    border:3px solid black;
+    margin:0px;
+    display:block;
+    width:240;
+    height:566;
+    float:left;
+    position:relative;
+}
+.row{
+    width:360px;
+    height:360px;
+    margin:auto;
+    display:block;
+    float:left;
+}
+.col{
+    float:left
+}
+body{
+    display:block;
+}

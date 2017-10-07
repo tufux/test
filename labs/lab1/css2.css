@@ -1,0 +1,59 @@
+
+.topbar{
+    top:0px;
+    left:0px;
+    display:block;
+    position:relative;
+    margin:auto;
+    float:left;
+    height:20%;
+     border-style:solid;
+    border-width: 1px; 
+    border-color:#f12042;
+     border-radius: 10px;
+} 
+    
+ .menustuff {
+     margin:20px;
+    position:relative;
+    text-align:center;
+    color:#F00F00;
+ }
+.menu {
+    
+    
+    display:block:;
+    height:79%;
+    width:10%;
+    float:left;
+    position:fixed;
+    color:#ff00d0;
+    border-style:solid;
+    border-width: 1px; 
+    border-color:#ffffff;
+    text-align:center;
+    margin:auto;
+}
+
+
+div{
+    
+    color:#d000ff;
+    
+    float:right;
+    display:block;
+}
+
+body{
+    background:#354910;
+}
+
+
+    
+
+h3{
+    text-align:center;
+    margin-left:5px;
+    margin-right:5px;
+    margin:auto;
+}

@@ -25,9 +25,9 @@ function reroll()
         <div id="main">
         <?php
         reroll();
-        echo '<img id="reel1" src="img/'. $slot1 . '.png" alt="slot1" width="70">';
-        echo '<img id="reel2" src="img/'. $slot2 . '.png" alt="slot2" width="70">';
-        echo '<img id="reel3" src="img/'. $slot3 . '.png" alt="slot3" width="70"    >';
+        echo '<img id="reel1" src="img/'. $slot1 . '.png" alt="slot1" width="100">';
+        echo '<img id="reel2" src="img/'. $slot2 . '.png" alt="slot2" width="100">';
+        echo '<img id="reel3" src="img/'. $slot3 . '.png" alt="slot3" width="100"    >';
         echo '<div id="output">';
         if($slot1 == $slot2 && $slot2 == $slot3)
         {

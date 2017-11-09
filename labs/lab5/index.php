@@ -90,6 +90,7 @@ $stmt = $dbConn -> prepare ($sql);
 $stmt -> execute (  array ( ':id' => '1')  );
 
 $temp_type = $_POST['filter_type'];
+
 $temp_name = $_POST['filter_name'];
 $temp_status = $_POST['filter_status'];
 
@@ -97,10 +98,16 @@ $temp_status = $_POST['filter_status'];
 if($_POST['visited'] != 'ja')
 {
     $temp_type = 'filter_type';
+    $temp_status = 'filter_status';
+    $temp_name = 'filter_name';
+    
 }   
-
-
-
+/*
+echo $temp_type ;
+echo    $temp_status ;
+echo    $temp_name ;
+echo $visited;
+*/
 echo "<div>";
 while ($row = $stmt -> fetch())  {
    
@@ -109,7 +116,7 @@ while ($row = $stmt -> fetch())  {
         echo  $row['deviceType'];
         echo " - ";
     }
-    if($temp_status == 'filter_status')
+        if($temp_name == 'filter_name')
     {
         echo $row['deviceName'];
         echo " - ";

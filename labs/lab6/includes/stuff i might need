@@ -1,0 +1,21 @@
+
+<?php
+
+$host = 'localhost';
+$dbname = 'midterm';
+$username = 'php';
+$password = 'php';
+$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+
+$dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+$sql = "SELECT firstName, lastName, country_of_birth FROM celebrity WHERE country_of_birth NOT IN (SELECT country_of_birth FROM celebrity 
+WHERE country_of_birth = 'USA')
+ORDER BY lastName";
+
+$stmt = $dbConn -> prepare ($sql);
+$stmt -> execute (  array ( ':id' => '1')  );
+$uname = strtoupper($_POST['username']);
+$passw = password_hash($_POST['pw'], PASSWORD_DEFAULT);
+
+?>
+
